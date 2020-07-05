@@ -1,0 +1,274 @@
+/*
+
+Template: GenIOT- Smart Devices Multipurpose HTML5 Template
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+
+*/
+
+
+/*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+
+/* Displays/Screens (e.g. 24" WS @ 1920x1080) -------------- */
+
+@media only screen and (min-width:1890px) and (max-width:2529px) {}
+
+@media(max-width:1550px) {
+    header .container-fluid {
+        padding: 0 100px !important;
+    }
+}
+
+@media(max-width:1399px) {
+    header .container-fluid {
+        padding: 0 10px !important;
+    }
+    .error .msg {
+        left: 20%;
+    }
+}
+
+@media(max-width:1199px) {
+    header .container-fluid {
+        padding: 0 !important;
+    }
+    #features .features-img img {
+        width: 60%;
+    }
+    #battery .features-img img {
+        width: 60%;
+    }
+    .footer .post-blog .lead {
+        font-size: 15px;
+    }
+    .banner-text h1 {
+        font-size: 38px;
+    }
+    .banner-text h6 {
+        margin-right: 65px;
+    }
+}
+
+@media(max-width:992px) {
+    header .container-fluid {
+        padding: 0 50px !important;
+    }
+    ul.navbar-nav {
+        background: #ffffff;
+        margin-top: 15px;
+    }
+    header .header-bottom .navbar.navbar-light .navbar-nav li {
+        padding: 10px 15px;
+    }
+    header .header-bottom .navbar.navbar-light .navbar-nav li.active {
+        background: #CC1236;
+    }
+    header .header-bottom .navbar.navbar-light .navbar-nav li.active a {
+        color: #ffffff;
+    }
+    .features .features-img {
+        margin-top: 100px;
+    }
+    #features .features-img img {
+        width: 75%;
+    }
+    .powerful .features-img {
+        display: none;
+    }
+    .title-box .sub-title {
+        padding: 0 50px;
+    }
+    footer h5 {
+        margin-top: 30px;
+    }
+    .footer .footer-copyright {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .dual-camera .camera-box p {
+        text-align: left;
+    }
+    .about-phone .heading-box {
+        text-align: left;
+    }
+    .box-of-futre {
+        text-align: center !important;
+    }
+}
+
+@media(max-width:979px) {}
+
+@media(max-width:767px) {
+    header .header-bottom .navbar.navbar-light .navbar-nav li {
+        margin-left: 0px;
+    }
+    .phone-intro .feature-box {
+        border-right: inherit;
+        margin: 15px 0;
+    }
+    .about-phone {
+        background-image: none !important;
+        padding: 100px 0 180px 0;
+    }
+    .video-box {
+        position: inherit;
+        left: inherit;
+        top: inherit;
+        transform: inherit;
+        -webkit-transform: inherit;
+        margin-top: 100px;
+    }
+    .title-box .sub-title {
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+    .title-box .light-title {
+        font-size: 100px;
+    }
+    .features .features-box li {
+        width: 33%;
+        margin: 20px 0px;
+    }
+    #features .features-img img {
+        width: 90%;
+    }
+    .about-phone .heading-box {
+        text-align: center;
+    }
+    .error .msg {
+        left: 22%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    .footer img {
+        left: 0;
+        top: -60px;
+    }
+    .footer img .the-last-footer .col-12 {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .buy-now {
+        background-color: #CC1236;
+        color: #fff;
+        font-size: 14px;
+        font-family: Gotham;
+        border: 0;
+        padding: 8px 25px;
+        cursor: pointer;
+    }
+    .header-bottom .navbar-toggler {
+        position: absolute;
+        right: -33px;
+        top: 5px;
+    }
+    .banner-text {
+        background-image: url('../images/viro_logoRes.png');
+    }
+    .btns {
+        flex-direction: row;
+    }
+    .bakground {
+        padding-top: 150px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #about {
+        height: auto;
+    }
+    .box555:first-child {
+        height: 500px;
+    }
+    .footer .buy-now {
+        border: 4px solid;
+    }
+}
+
+@media(max-width:575px) {
+    header .header-bottom .navbar .navbar-brand img {
+        height: 50px;
+    }
+    .about-phone .heading-box {
+        padding: 0 60px;
+    }
+    .title-box.left .light-title {
+        left: 13px;
+    }
+    .title-box .sub-title,
+    p {
+        font-size: 14px;
+    }
+    footer .re-50 {
+        width: 50%;
+    }
+    .error .msg {
+        left: 20%;
+    }
+    .coming-soon .input-form-mail {
+        width: 100%;
+    }
+    .coming-soon .input-group-btn {
+        display: inline-block;
+        float: left;
+        top: 0;
+        left: 37%;
+        margin-top: 20px;
+    }
+    .coming-soon .form-email .btn-color {
+        color: #00befd;
+        background: #222222;
+        padding: 5px 10px;
+    }
+    .coming-soon .ui-hero .body-card {
+        padding: 30px 25px 80px 25px;
+    }
+}
+
+@media(max-width:479px) {
+    .about-phone .heading-box {
+        padding: 0 30px;
+    }
+    .phone-intro .phone-box .phone-1,
+    .phone-intro .phone-box .phone-2 {
+        width: 40%;
+    }
+    .features .features-box li {
+        width: 100%;
+    }
+    .features .features-img {
+        margin-top: 70px;
+        margin-bottom: -160px;
+    }
+    #features .features-img img {
+        width: 100%;
+    }
+    #battery .features-img img {
+        width: 75%;
+    }
+    footer .re-50 {
+        width: 100%;
+    }
+    .powerful .features-box li {
+        margin-right: 30px;
+    }
+    .error .msg {
+        left: 0;
+    }
+    .coming-soon .input-group-btn {
+        left: 26.5%;
+    }
+    .coming-soon .form-email .btn-color {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+}
